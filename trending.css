@@ -86,7 +86,9 @@ textarea:focus{
     color: black;
 }
 
-
+hr{
+    display: none;
+}
 
 .content{
     width: 75%;

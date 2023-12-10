@@ -239,6 +239,15 @@ hr {
     flex-direction: row;
     margin: 0px;
   }
+  .social .instagram{
+    width: 150px;
+  }
+  .social .twitter{
+    width: 150px;
+  }
+  .social .linkedin{
+    width: 150px;
+  }
   .buttons {
     width: 90%;
     height: auto;

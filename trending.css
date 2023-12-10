@@ -46,7 +46,7 @@ body{
 
 .post{
     width: 25%;
-    height: 670px;
+    height: 710px;
     float: left;
     box-sizing: border-box;
     border-right: 2px solid #e0e0e0;
@@ -93,11 +93,13 @@ hr{
 .content{
     width: 75%;
     
-    height: 670px;
+    height: 710px;
     float: left;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
-.card1,.card2,.card3{
+.card1,.card2,.card3,.card4{
     width: 96%;
     height: 205px;
     background-color:green;
@@ -117,6 +119,9 @@ hr{
 .card3{
     margin-top: 10px;
 }
+.card4{
+    margin-top: 10px;
+}
 
 .card1 .profile{
     position: relative;
@@ -127,7 +132,7 @@ hr{
    
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .logo{
         float: none;
         width: 100%;

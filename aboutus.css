@@ -1,218 +1,282 @@
-body{
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.logo {
+  width: 25%;
+  font-family: "Lobster Two";
+  float: left;
+  height: 60px;
+  color: #ffba0c;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #e0e0e0;
+  border-bottom: 2px solid #e0e0e0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 75%;
+  height: 60px;
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 2px solid #e0e0e0;
+  box-sizing: border-box;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-family: "Lobster Two";
+  /* font-family:sans-serif ; */
+  color: black;
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+.post {
+  width: 25%;
+  height: 670px;
+  float: left;
+  box-sizing: border-box;
+  border-right: 2px solid #e0e0e0;
+}
+.post button {
+  font-family: "Lobster Two";
+  width: 95.5%;
+  /* padding: 5px 15px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #1da1f2;
+  margin-left: 2.5%;
+  font-size: 22px;
+  margin-top: 8px;
+  color: white;
+}
+
+textarea {
+  width: 92%;
+  height: 140px;
+  margin: 3% 0px 0px 2.5%;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #d9d9d9;
+  font-family: "Lobster Two";
+  font-size: 18px;
+  color: #999999;
+  padding: 10px 0px 0px 10px;
+  resize: none;
+}
+textarea:focus {
+  color: black;
+}
+
+.social {
+  width: 25%;
+  height: 710px;
+  float: left;
+  box-sizing: border-box;
+  border-right: 2px solid #e0e0e0;
+}
+
+.social button {
+  cursor: pointer;
+}
+
+.buttons {
+  width: 90%;
+  height: 250px;
+  /* background-color: green; */
+  font-family: "Lobster Two";
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  /* cursor:pointer; */
+}
+
+.social .instagram {
+  font-family: "Lobster Two";
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  border: none;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font-size: 23px;
+}
+.social .twitter {
+  font-family: "Lobster Two";
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 23px;
+  border: none;
+}
+.social .linkedin {
+  font-family: "Lobster Two";
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 23px;
+  background-color: white;
+  border: none;
+}
+.social .buttons svg {
+  width: 25px;
+  height: 25px;
+}
+.social .buttons :hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.social .buttons a {
+  text-decoration: none;
+}
+hr {
+  display: none;
+}
+
+.content {
+  width: 75%;
+  height: 670px;
+
+  float: left;
+}
+
+.content .about {
+  width: 90%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.content .about p {
+  font-family: alegreya sans;
+  font-size: 20px;
+}
+.content .about h1 {
+  font-family: "Lobster Two";
+  text-decoration: underline;
+}
+
+.content .vision {
+  width: 90%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.content .vision p {
+  font-family: alegreya sans;
+  font-size: 20px;
+}
+.content .vision h1 {
+  text-decoration: underline;
+  font-family: "Lobster Two";
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    float: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar {
+    float: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  .navbar a {
+    padding: 0px;
+    margin: 0px;
+  }
+  .social {
+    float: none;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 0px;
+  }
+  .buttons {
+    width: 90%;
+    height: auto;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
     margin: 0px;
     padding: 0px;
-    
-}
+  }
+  .buttons:hover {
+    display: none;
+  }
+  .social .buttons {
+    padding: 0px;
+    margin: 0px;
+  }
 
-.active{
-    font-weight: bold;
-}
-
-.logo{
-    width: 25%;
-    font-family: 'Lobster Two';
-    float: left;
-    height: 60px;
-    color: #ffba0c;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-right: 2px solid #e0e0e0;
-    border-bottom: 2px solid #e0e0e0;
-    box-sizing: border-box;
-}
-
-.navbar{
-    
-    width: 75%;
-    height: 60px;
-    float: left;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    border-bottom: 2px solid #e0e0e0;
-    box-sizing: border-box;
-}
-
-.navbar a{
-    text-decoration: none   ;
-    font-family: 'Lobster Two';
-    /* font-family:sans-serif ; */
-    color: black;
-    font-size: 20px;
-    padding-left: 50px;
-}
-
-.post{
-    width: 25%;
-    height: 670px;
-    float: left;
-    box-sizing: border-box;
-    border-right: 2px solid #e0e0e0;
-}
-.post button{
-    font-family: 'Lobster Two';
-    width: 95.5%;
-    /* padding: 5px 15px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35px;
-    border-radius: 10px;
-    background-color: #1da1f2;
-    margin-left: 2.5%;
-    font-size: 22px;
-    margin-top:8px;
-    color: white;
-
-}
-
-textarea{
-    width: 92%;
-    height: 140px;
-    margin: 3% 0px 0px 2.5%;
-    border-radius: 10px;
-    border: 2px solid black;
-    background-color: #d9d9d9;
-    font-family: 'Lobster Two';
-    font-size: 18px;
-    color: #999999;
-    padding: 10px 0px 0px 10px;
-    resize: none;
-}
-textarea:focus{
-    color: black;
-}
-
-
-.social{
-    width: 25%;
-    height: 670px;
-    float: left;
-    box-sizing: border-box;
-    border-right: 2px solid #e0e0e0;
-}
-
-.social button{
-    cursor: pointer;
-}
-
-.buttons{
-    width: 90%;
-    height: 250px;
-    /* background-color: green; */
-    font-family: 'Lobster Two';
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    flex-direction: column;
-    /* cursor:pointer; */
-}
-
-.social .instagram{
-    font-family: 'Lobster Two';
-    height: 50px;
-    width: 200px;
-    background-color: white;
-    border: none;
-    
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
-    font-size: 23px;
-}
-.social .twitter{
-    font-family: 'Lobster Two';
-    height: 50px;
-    width: 200px;
-    background-color: white;  
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
-    font-size: 23px;
-
-    border: none;
-}
-.social .linkedin{
-    font-family: 'Lobster Two';
-    height: 50px;
-    width: 200px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-size: 23px;
-    background-color: white;
-    border: none;
-}
-.social .buttons svg{
-    width: 25px;
-    height: 25px;
-}
-.social .buttons :hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-.social .buttons a{
-    text-decoration: none;
-}
-
-
-.content{
-    width: 75%;
-    height: 670px;
-
-    float: left;
-}
-
-
-.content .about{
-    width: 90%;
-    height: 200px;
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.content .about p{
-    font-family: alegreya sans;
-    font-size: 20px;
-}
-.content .about h1{
-
-    font-family: 'Lobster Two';
-    text-decoration: underline;
-}
-
-
-.content .vision{
-    width: 90%;
-    height: 200px;
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-.content .vision p{
-    font-family: alegreya sans;
-    font-size: 20px;
-}
-.content .vision h1{
-    text-decoration: underline;
-    font-family: 'Lobster Two';
+  .content {
+    float: none;
+    width: 100%;
+    /* height: auto; */
+    background-color: aquamarine;
+  }
+  .content .about {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+  .content .about br {
+    display: none;
+  }
+  .content .vision br {
+    display: none;
+  }
+  .content .vision {
+    width: 100%;
+    margin-top: 50px;
+  }
+  hr {
+    display: block;
+  }
 }

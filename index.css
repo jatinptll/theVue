@@ -46,7 +46,7 @@ body{
 
 .post{
     width: 25%;
-    height: 670px;
+    height: 710px;
     float: left;
     box-sizing: border-box;
     border-right: 2px solid #e0e0e0;
@@ -92,7 +92,7 @@ hr{
 
 .content{
     width: 75%;
-    height: 665px;
+    height: 710px;
     float: left;
     overflow: scroll;
     overflow-x: hidden;

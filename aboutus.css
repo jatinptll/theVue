@@ -208,7 +208,7 @@ hr {
   font-family: "Lobster Two";
 }
 
-@media screen and (min-width:450px) and ( max-width: 600px) {
+@media screen and ( max-width: 600px){
   .logo {
     float: none;
     width: 100%;
@@ -249,7 +249,7 @@ hr {
     width: 150px;
   }
   .buttons {
-    width: 90%;
+    width: 100%;
     height: auto;
     flex-direction: row;
     /* justify-content: space-evenly; */
@@ -288,13 +288,9 @@ hr {
   hr {
     display: block;
   }
+  .buttons span{
+    display: none;
+  }
 }
 
-@media screen and (max-width: 450) {
-    
 
-
-    .social .instagram{
-        width: 120px;
-    }
-}

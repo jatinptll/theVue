@@ -109,10 +109,10 @@ body {
   width: 25px;
   height: 25px;
 }
-.social .buttons :hover {
+/* .social .buttons :hover {
   transform: scale(1.1);
   transition: 0.5s;
-}
+} */
 .social .buttons a {
   text-decoration: none;
 }
@@ -222,9 +222,9 @@ body {
     /* margin: 0px; */
     /* padding: 0px; */
   }
-  .buttons:hover {
+  /* .buttons:hover {
     display: none;
-  }
+  } */
   .social .buttons {
     padding: 0px;
     margin: 0px;

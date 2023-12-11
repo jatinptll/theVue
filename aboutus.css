@@ -286,14 +286,14 @@ h1 {
   } */
   .social .buttons {
     padding: 0px;
-    margin: 0px;
+    margin-top: 15px;
   }
   .social a .instagram{
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
   .social a .twitter{
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
   /* .content { */
     /* float: none; */

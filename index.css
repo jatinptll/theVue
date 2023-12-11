@@ -155,6 +155,8 @@ hr{
         display: flex;
         justify-content: center;
         align-items: center;
+        box-sizing: unset;
+
     }
 
     .navbar{
@@ -179,6 +181,8 @@ hr{
         float: none;
         width: 100%;
         height: auto;
+        box-sizing: unset;
+
     }
     .post button{
         height: 40px;

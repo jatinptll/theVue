@@ -240,6 +240,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: unset;
   }
 
   .navbar {
@@ -263,6 +264,7 @@ h1 {
     justify-content: space-evenly;
     /* flex-direction: row; */
     margin: 0px;
+    box-sizing: unset;
   }
   .social .instagram{
     width: 150px;

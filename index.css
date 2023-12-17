@@ -183,6 +183,7 @@ hr {
   background-color: grey;
 }
 
+
 body {
   background: linear-gradient(-45deg, #ffba0c, #e73c7e, #1da1f2, #23d5ab, #ff6a00, #845ec2, #00bcd4, #4caf50);
   background-size: 800% 800%; /* Adjust the size based on the number of colors */

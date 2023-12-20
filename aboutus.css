@@ -206,6 +206,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-right: none;
   }
 
   .navbar {
@@ -216,6 +217,7 @@ body {
     align-items: center;
     padding: 0px;
     margin: 0px;
+    /* border-bottom: none */
     
   }
   .navbar a {
@@ -230,6 +232,7 @@ body {
     justify-content: space-evenly;
     /* flex-direction: row; */
     margin: 0px;
+    border-right: none;
   }
   .social .instagram{
     width: 150px;
@@ -268,7 +271,7 @@ body {
     /* height: auto; */
     /* background-color: aquamarine; */
   /* } */
-  .content .about {
+  /* .content .about {
     padding: 0px;
     margin: 0px;
     width: 100%;
@@ -282,7 +285,7 @@ body {
   .content .vision {
     width: 100%;
     margin-top: 50px;
-  }
+  } */
   hr {
     display: block;
     margin: 0px;

@@ -52,32 +52,31 @@ body {
   flex-direction: column;
 }
 .post button {
-    font-family: "Lobster Two";
-    width: 95.5%;
-    /* padding: 5px 15px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35px;
-    border-radius: 10px;
-    background-color: #1da1f2;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 22px;
-    margin-top: 8px;
-    color: #000;
-    cursor: pointer;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8); /* Adjust values as needed */
-    background: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-  }
-  
+  font-family: "Lobster Two";
+  width: 95.5%;
+  /* padding: 5px 15px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #1da1f2;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 22px;
+  margin-top: 8px;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4); /* Adjust values as needed */
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
 
 textarea {
-  width: 92%;
+  width: 89.7%;
   height: 140px;
   margin-top: 11px;
   margin-left: auto;
@@ -88,19 +87,19 @@ textarea {
   font-family: "Lobster Two";
   font-size: 18px;
   color: #999999;
-  padding: 10px 0px 0px 10px;
+  padding: 10px 10px 0px 10px;
   resize: none;
   background: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8); /* Adjust values as needed */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4); /* Adjust values as needed */
   backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  /* -webkit-backdrop-filter: blur(20px); */
   border-radius: 10px;
   border: 0px solid rgba(255, 255, 255, 0.18);
 }
 textarea:focus {
-  color: black;   
+  color: black;
 }
-textarea::placeholder{
+textarea::placeholder {
   color: #000;
 }
 
@@ -134,7 +133,7 @@ hr {
   padding-top: 8px;
   padding-left: 8px;
   background: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
@@ -145,7 +144,7 @@ hr {
   padding-top: 8px;
   padding-left: 8px;
   background: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
@@ -157,7 +156,7 @@ hr {
   padding-top: 8px;
   padding-left: 8px;
   background: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
@@ -168,7 +167,7 @@ hr {
   padding-top: 8px;
   padding-left: 8px;
   background: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
@@ -177,13 +176,58 @@ hr {
 
 .profile {
   position: relative;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background-color: grey;
 }
 
+body {
+  background: linear-gradient(
+    -45deg,
+    rgba(255, 186, 12, 0.7),
+    rgba(231, 60, 126, 0.5),
+    rgba(29, 161, 242, 0.7),
+    rgba(35, 213, 171, 0.5),
+    rgba(255, 106, 0, 0.7),
+    rgba(132, 94, 194, 0.5),
+    rgba(0, 188, 212, 0.7 ),
+    rgba(76, 175, 80, 0.5)
+  );
+  background-size: 100% 100%;
+  animation: gradient 50s linear infinite;
+  height: 100vh;
+}
 
+/* @keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  12.5% {
+    background-position: 100% 0%;
+  }
+  25% {
+    background-position: 100% 100%;
+  }
+  37.5% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 0% 0%;
+  }
+  62.5% {
+    background-position: 100% 0%;
+  }
+  75% {
+    background-position: 100% 100%;
+  }
+  87.5% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+} */
 
 @media screen and (min-width: 100px) and (max-width: 700px) {
   .logo {
@@ -217,7 +261,7 @@ hr {
     width: 100%;
     height: auto;
   }
-  .profile{
+  .profile {
     height: 25px;
     width: 25px;
   }

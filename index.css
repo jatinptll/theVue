@@ -63,7 +63,7 @@ body {
   background-color: #1da1f2;
   margin-left: auto;
   margin-right: auto;
-  font-size: 22px;
+  font-size: 21px;
   margin-top: 8px;
   color: #000;
   cursor: pointer;
@@ -264,6 +264,11 @@ body {
     height: 217px;
     border-right: none;
   }
+  .post button {
+    height: 40px;
+    width: 94%;
+    font-size: 22px;
+  }
   .content {
     float: none;
     width: 100%;
@@ -273,11 +278,7 @@ body {
     height: 25px;
     width: 25px;
   }
-  .post button {
-    height: 40px;
-    width: 94%;
-    font-size: 30px;
-  }
+
   hr {
     display: block;
   }

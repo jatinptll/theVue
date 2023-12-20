@@ -238,6 +238,11 @@ hr{
         height: 217px;
         border-right: none;
     }
+    .post button{
+      height: 40px;
+      width: 94%;
+      font-size: 22px;
+    }
     .content{
         float: none;
         width: 100%;
@@ -247,11 +252,7 @@ hr{
       height: 25px;
       width: 25px;
     } 
-    .post button{
-        height: 40px;
-        width: 94%;
-        font-size: 30px;
-    }
+  
     hr{
         display: block;
     }

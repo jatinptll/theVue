@@ -189,6 +189,9 @@ hr{
     justify-content: center;
     align-items: center;
   }
+  html {
+    height:100%;
+  }
   
   body {
     background: linear-gradient(

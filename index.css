@@ -187,6 +187,9 @@ hr {
   justify-content: center;
   align-items: center;
 }
+html {
+  height:100%;
+}
 
 body {
   background: linear-gradient(
@@ -289,6 +292,7 @@ body {
       width: 92%;
   }
   .content p{
+    font-family: "Lobster Two";
     display: flex;
     justify-content: center;
     align-items: center;

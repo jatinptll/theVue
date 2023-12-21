@@ -297,4 +297,8 @@ body {
     justify-content: center;
     align-items: center;
   }
+body{
+  background-attachment: fixed;
+}
+
 }

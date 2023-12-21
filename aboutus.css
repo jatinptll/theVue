@@ -293,6 +293,10 @@ body {
   /* .buttons span{
     display: none;
   } */
+  body{
+    background-attachment: fixed;
+  }
+
 }
 
 
